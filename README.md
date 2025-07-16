@@ -59,7 +59,7 @@ Ensure the .env file exists. Then fill in your credentials:
 
 <img width="563" height="164" alt="image" src="https://github.com/user-attachments/assets/302beec8-4869-43f0-8e03-2b5a7a2c06b9" />
 
-☁️ Recommended Deployment
+## ☁️ Recommended Deployment
 Use tools like:
 
 - screen
@@ -71,4 +71,18 @@ Use tools like:
 To keep the script running in the background.
 Or configure it as a systemd service for autostart on boot.
 
-MIT © 2025 [KaelVNode](https://github.com/KaelVNode)
+---
+
+## 🙏 Credits
+Built with ❤️ by [KaelVNode](https://github.com/KaelVNode/)
+Inspired by the need to monitor balances without relying on centralized dashboards.
+
+---
+## ⚠️ Disclaimer
+This tool is provided "as is" with no warranties. Use at your own risk.
+Always test on testnet before deploying to mainnet environments.
+
+---
+
+## MIT © 2025 [KaelVNode](https://github.com/KaelVNode)
+---
