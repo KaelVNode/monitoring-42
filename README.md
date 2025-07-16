@@ -40,12 +40,14 @@ pip install -r requirements.txt
 ```
 3. Edit the .env file:
 
-Ensure the .env file exists. Then fill in your credentials:
-- `RPC_URL` dari Alchemy
-- `TELEGRAM_BOT_TOKEN` dari @BotFather
-- `TELEGRAM_CHAT_ID` dari @userinfobot
-- `WALLET_ADDRESS` & `TOKEN_42_ADDRESS` di jaringan Monad
-
+Make sure .env exists. Fill in your credentials:
+```bash
+RPC_URL=your_alchemy_rpc_url
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+TELEGRAM_CHAT_ID=your_telegram_chat_id
+WALLET_ADDRESS=your_monad_wallet_address
+TOKEN_42_ADDRESS=your_token_address
+```
 4. Start monitoring
 ```bash
    python3 mon.py
